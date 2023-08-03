@@ -1,0 +1,125 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #eee;
+  }
+  
+  .hero {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    color: #555;
+  }
+  
+  .contact-section {
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact-info {
+    text-align: center;
+    flex: 1;
+    margin: 20px;
+  }
+  
+  .contact-info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  .contact-info p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  footer p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-links img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  

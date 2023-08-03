@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Scientist Application</title>
+    <link rel="stylesheet" href="ds.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Data Scientist Application</h1>
+        <form id="applicationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" accept=".pdf,.doc,.docx" required>
+            
+            <label for="message">Cover Letter:</label>
+            <textarea id="message" rows="4" required></textarea>
+            
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+
+    <script>
+        const applicationForm = document.getElementById("applicationForm");
+
+        applicationForm.addEventListener("submit", function (event) {
+            event.preventDefault();
+            // Here, you can send the form data to your server using AJAX or fetch API
+            // For this demo, we'll simply show an alert that the response has been recorded.
+            alert("Your response has been recorded. Thank you for applying!");
+            // Reset the form after submitting
+            applicationForm.reset();
+        });
+    </script>
+</body>
+</html>
